@@ -11,7 +11,7 @@ const books = [
  
 //READ Request Handlers
 app.get('/', (req, res) => {
-res.send('Welcome to Edurekas REST API with Node.js Tutorial!!');
+res.send('WELCOME TO REST API');
 });
  
 app.get('/api/books', (req,res)=> {
